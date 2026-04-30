@@ -1,7 +1,7 @@
 {
     "count": 1,
     "additionalInfo": {},
-    "ts": 1777543371,
+    "ts": 1777545851,
     "url": "https://indico.global/export/event/14708.json?detail=sessions&pretty=yes",
     "results": [
         {
@@ -8460,7 +8460,46 @@
                             "location": "La Biodola - Isola d'Elba (Italy)",
                             "type": "Poster presentation",
                             "description": "The MEG II experiment at PSI searches for the charged lepton flavour violating decay $\\mu^+ \\to e^+\\gamma$ with unprecedented sensitivity. Fast and efficient positron track reconstruction is a key challenge for online data processing, as the cylindrical drift chamber is a gaseous detector with intrinsically slow response and is therefore not used in the first-level trigger. Moreover, the complex detector geometry and the non-solenoidal magnetic field make conventional track fitting computationally expensive.\r\n\r\nWe present a novel track finding approach based on Graph Neural Networks (GNNs), designed to enable a faster and more efficient reconstruction of positron tracks from drift chamber hits. Hits are mapped to graph nodes, with edges encoding geometrical and temporal compatibility, allowing the GNN to identify track candidates in high-occupancy conditions. The method significantly reduces the computational cost of pattern recognition and track finding compared to traditional algorithms.\r\n\r\nThe model is trained on both Monte Carlo simulations and MEG II data. We report performance in terms of efficiency, resolutions and execution time, highlighting the improvements obtained. This technique opens the possibility of exploiting tracking information during data taking: future studies could allow to implement the optimized GNN algorithm in the trigger logic of future $\\mu \\to e\\gamma$ experiments.",
-                            "folders": [],
+                            "folders": [
+                                {
+                                    "_type": "folder",
+                                    "id": 69360,
+                                    "title": null,
+                                    "description": "",
+                                    "attachments": [
+                                        {
+                                            "_type": "attachment",
+                                            "id": 134508,
+                                            "download_url": "https://indico.global/event/14708/contributions/146656/attachments/69360/134508/CP_PosterSessionML_146.pdf",
+                                            "title": "CP_PosterSessionML_146.pdf",
+                                            "description": "",
+                                            "modified_dt": "2026-04-30T10:29:41.841919+00:00",
+                                            "type": "file",
+                                            "is_protected": false,
+                                            "filename": "CP_PosterSessionML_146.pdf",
+                                            "content_type": "application/pdf",
+                                            "size": 123458,
+                                            "checksum": "6f9ae3f7d7cf086be42dc76e559d741f"
+                                        },
+                                        {
+                                            "_type": "attachment",
+                                            "id": 134506,
+                                            "download_url": "https://indico.global/event/14708/contributions/146656/attachments/69360/134506/PO_PosterSessionML_146.pdf",
+                                            "title": "PO_PosterSessionML_146.pdf",
+                                            "description": "",
+                                            "modified_dt": "2026-04-30T10:26:49.031441+00:00",
+                                            "type": "file",
+                                            "is_protected": false,
+                                            "filename": "PO_PosterSessionML_146.pdf",
+                                            "content_type": "application/pdf",
+                                            "size": 3897122,
+                                            "checksum": "66af856e79a515173609254a1648103e"
+                                        }
+                                    ],
+                                    "default_folder": true,
+                                    "is_protected": false
+                                }
+                            ],
                             "url": "https://indico.global/event/14708/contributions/146656/",
                             "material": [],
                             "speakers": [
