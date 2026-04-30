@@ -1,7 +1,7 @@
 {
     "count": 1,
     "additionalInfo": {},
-    "ts": 1777545851,
+    "ts": 1777550872,
     "url": "https://indico.global/export/event/14708.json?detail=sessions&pretty=yes",
     "results": [
         {
@@ -8469,17 +8469,17 @@
                                     "attachments": [
                                         {
                                             "_type": "attachment",
-                                            "id": 134508,
-                                            "download_url": "https://indico.global/event/14708/contributions/146656/attachments/69360/134508/CP_PosterSessionML_146.pdf",
-                                            "title": "CP_PosterSessionML_146.pdf",
+                                            "id": 134510,
+                                            "download_url": "https://indico.global/event/14708/contributions/146656/attachments/69360/134510/CP_145.jpeg",
+                                            "title": "CP_145.jpeg",
                                             "description": "",
-                                            "modified_dt": "2026-04-30T10:29:41.841919+00:00",
+                                            "modified_dt": "2026-04-30T10:53:19.061775+00:00",
                                             "type": "file",
                                             "is_protected": false,
-                                            "filename": "CP_PosterSessionML_146.pdf",
-                                            "content_type": "application/pdf",
-                                            "size": 123458,
-                                            "checksum": "6f9ae3f7d7cf086be42dc76e559d741f"
+                                            "filename": "CP_145.jpeg",
+                                            "content_type": "image/jpeg",
+                                            "size": 199178,
+                                            "checksum": "4ec8bbb9c7cd8f1bdb43e2685c7566b6"
                                         },
                                         {
                                             "_type": "attachment",
