@@ -1,7 +1,7 @@
 {
     "count": 1,
     "additionalInfo": {},
-    "ts": 1778666166,
+    "ts": 1778916957,
     "url": "https://indico.global/export/event/14708.json?detail=sessions&pretty=yes",
     "results": [
         {
@@ -3563,14 +3563,14 @@
                                 {
                                     "_type": "ContributionParticipation",
                                     "_fossil": "contributionParticipationMetadata",
-                                    "first_name": "Carlo",
-                                    "last_name": "Tintori",
-                                    "fullName": "Tintori, Carlo",
-                                    "id": "279757",
+                                    "first_name": "Giovanni",
+                                    "last_name": "Cerretani",
+                                    "fullName": "Cerretani, Giovanni",
+                                    "id": "279759",
                                     "affiliation": "CAEN S.p.A.",
-                                    "emailHash": "a2bc974df28fa4ffdc69499addf9e099",
-                                    "db_id": 279757,
-                                    "person_id": 210889
+                                    "emailHash": "6909e46d6d68c9a2886558433e14b0cc",
+                                    "db_id": 279759,
+                                    "person_id": 236377
                                 }
                             ],
                             "primaryauthors": [
@@ -9436,7 +9436,74 @@
                             "location": "Hotel Hermitage",
                             "type": "Poster presentation",
                             "description": "RFX-mod2 is the upgraded version of the RFX-mod Reversed-Field Pinch (RFP) device, operated at Consorzio RFX. Given the substantial phenomenological and engineering complexity of the device, control performance is expected to benefit significantly from the integration of a broader set of diagnostics, such as Soft X-Ray (SXR) measurements, that help characterize the internal plasma state. A crucial parameter for accurately assessing this state is the electron temperature, inferred from SXR radiation. However, to effectively integrate this information in real time, it is necessary to derive a denoised, low-dimensional representation of the acquired signal within a timeframe compatible with the control cycle.\r\nWithin this context, autoencoder (AE) architectures and their variational extension (VAE) can be employed to capture the strong non-linearities characteristic of plasma behavior. The proposed VAE model, initially developed in earlier work at the RFX Consortium and subsequently extended, has been evaluated on two datasets: one synthetic and one experimental, the latter derived from the SXR diagnostic of RFX-mod. To achieve real-time deployment on FPGA hardware, the model is subjected to a quantization procedure using either the CERN/HLS4ML framework or the Xilinx/FINN framework. The system demonstrates the ability to recover relevant physical information in real time, suitable for integration into plasma discharge control along-side other diagnostic systems. Results show that the VAE can consistently reconstruct the input temperature profile, even under moderate to high levels of data loss, highlighting the potential of deep generative models for robust data imputation in fusion plasma diagnostics.",
-                            "folders": [],
+                            "folders": [
+                                {
+                                    "_type": "folder",
+                                    "id": 70041,
+                                    "title": null,
+                                    "description": "",
+                                    "attachments": [
+                                        {
+                                            "_type": "attachment",
+                                            "id": 135869,
+                                            "download_url": "https://indico.global/event/14708/contributions/146584/attachments/70041/135869/CP_27.jpeg",
+                                            "title": "CP_27.jpeg",
+                                            "description": "",
+                                            "modified_dt": "2026-05-15T11:52:24.182418+00:00",
+                                            "type": "file",
+                                            "is_protected": false,
+                                            "filename": "CP_27.jpeg",
+                                            "content_type": "image/jpeg",
+                                            "size": 228332,
+                                            "checksum": "e6f682311922e65315d221fb3c0fcc83"
+                                        },
+                                        {
+                                            "_type": "attachment",
+                                            "id": 135866,
+                                            "download_url": "https://indico.global/event/14708/contributions/146584/attachments/70041/135866/MS_AIMachineLearningRealTimeSimulationIntelligentSignalProcessingPS_27.pdf",
+                                            "title": "MS_AIMachineLearningRealTimeSimulationIntelligentSignalProcessingPS_27.pdf",
+                                            "description": "",
+                                            "modified_dt": "2026-05-15T11:49:04.244256+00:00",
+                                            "type": "file",
+                                            "is_protected": false,
+                                            "filename": "MS_AIMachineLearningRealTimeSimulationIntelligentSignalProcessingPS_27.pdf",
+                                            "content_type": "application/pdf",
+                                            "size": 642754,
+                                            "checksum": "d7cb78b09cf9c159ddf51239fad64448"
+                                        },
+                                        {
+                                            "_type": "attachment",
+                                            "id": 135865,
+                                            "download_url": "https://indico.global/event/14708/contributions/146584/attachments/70041/135865/MS_AIMachineLearningRealTimeSimulationIntelligentSignalProcessingPS_27.pptx",
+                                            "title": "MS_AIMachineLearningRealTimeSimulationIntelligentSignalProcessingPS_27.pptx",
+                                            "description": "",
+                                            "modified_dt": "2026-05-15T11:48:59.714434+00:00",
+                                            "type": "file",
+                                            "is_protected": false,
+                                            "filename": "MS_AIMachineLearningRealTimeSimulationIntelligentSignalProcessingPS_27.pptx",
+                                            "content_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                                            "size": 1657834,
+                                            "checksum": "d6b610e3f956877f8969ad5458aed6f6"
+                                        },
+                                        {
+                                            "_type": "attachment",
+                                            "id": 135867,
+                                            "download_url": "https://indico.global/event/14708/contributions/146584/attachments/70041/135867/PO_AIMachineLearningRealTimeSimulationIntelligentSignalProcessingPS_27.pdf",
+                                            "title": "PO_AIMachineLearningRealTimeSimulationIntelligentSignalProcessingPS_27.pdf",
+                                            "description": "",
+                                            "modified_dt": "2026-05-15T11:50:26.452761+00:00",
+                                            "type": "file",
+                                            "is_protected": false,
+                                            "filename": "PO_AIMachineLearningRealTimeSimulationIntelligentSignalProcessingPS_27.pdf",
+                                            "content_type": "application/pdf",
+                                            "size": 491036,
+                                            "checksum": "87cbf2a0bd540588424f0390579c2be5"
+                                        }
+                                    ],
+                                    "default_folder": true,
+                                    "is_protected": false
+                                }
+                            ],
                             "url": "https://indico.global/event/14708/contributions/146584/",
                             "material": [],
                             "speakers": [
@@ -9581,17 +9648,31 @@
                                     "attachments": [
                                         {
                                             "_type": "attachment",
-                                            "id": 135637,
-                                            "download_url": "https://indico.global/event/14708/contributions/146662/attachments/69943/135637/PO_PosterSessionAI_102.pdf",
-                                            "title": "PO_PosterSessionAI_102.pdf",
+                                            "id": 135830,
+                                            "download_url": "https://indico.global/event/14708/contributions/146662/attachments/69943/135830/CP_102.jpg",
+                                            "title": "CP_102.jpg",
                                             "description": "",
-                                            "modified_dt": "2026-05-13T09:17:56.935250+00:00",
+                                            "modified_dt": "2026-05-15T02:17:42.475532+00:00",
                                             "type": "file",
                                             "is_protected": false,
-                                            "filename": "PO_PosterSessionAI_102.pdf",
+                                            "filename": "CP_102.jpg",
+                                            "content_type": "image/jpeg",
+                                            "size": 90888,
+                                            "checksum": "bca64915e8e9cf2c0f735741fb4033fa"
+                                        },
+                                        {
+                                            "_type": "attachment",
+                                            "id": 135661,
+                                            "download_url": "https://indico.global/event/14708/contributions/146662/attachments/69943/135661/PO_102.pdf",
+                                            "title": "PO_102.pdf",
+                                            "description": "",
+                                            "modified_dt": "2026-05-13T12:20:16.438774+00:00",
+                                            "type": "file",
+                                            "is_protected": false,
+                                            "filename": "PO_102.pdf",
                                             "content_type": "application/pdf",
-                                            "size": 954791,
-                                            "checksum": "a196dc06b4797c28de7fc534086fdffa"
+                                            "size": 984215,
+                                            "checksum": "0284e873d714707c7ab8cc7e228d61b1"
                                         }
                                     ],
                                     "default_folder": true,
@@ -11208,17 +11289,31 @@
                                     "attachments": [
                                         {
                                             "_type": "attachment",
-                                            "id": 134712,
-                                            "download_url": "https://indico.global/event/14708/contributions/146722/attachments/69458/134712/PO_PosterSession_100.pdf",
+                                            "id": 135764,
+                                            "download_url": "https://indico.global/event/14708/contributions/146722/attachments/69458/135764/CP_100.jpg",
+                                            "title": "CP_100.jpg",
+                                            "description": "",
+                                            "modified_dt": "2026-05-14T12:13:00.856993+00:00",
+                                            "type": "file",
+                                            "is_protected": false,
+                                            "filename": "CP_100.jpg",
+                                            "content_type": "image/jpeg",
+                                            "size": 90888,
+                                            "checksum": "d0e50d54095e861d7830b3328014e9fe"
+                                        },
+                                        {
+                                            "_type": "attachment",
+                                            "id": 135659,
+                                            "download_url": "https://indico.global/event/14708/contributions/146722/attachments/69458/135659/PO_PosterSession_100.pdf",
                                             "title": "PO_PosterSession_100.pdf",
                                             "description": "",
-                                            "modified_dt": "2026-05-06T08:01:31.915376+00:00",
+                                            "modified_dt": "2026-05-13T12:08:41.546836+00:00",
                                             "type": "file",
                                             "is_protected": false,
                                             "filename": "PO_PosterSession_100.pdf",
                                             "content_type": "application/pdf",
-                                            "size": 647378,
-                                            "checksum": "0738fcdf366e1d13587574b19a7cd917"
+                                            "size": 665218,
+                                            "checksum": "ed37438173ee23a90eed649771b3960d"
                                         }
                                     ],
                                     "default_folder": true,
@@ -14009,7 +14104,46 @@
                             "location": "Hotel Hermitage",
                             "type": "Poster presentation",
                             "description": "Helium optically pumped magnetometers (He-OPMs) offer high sensitivity, wide bandwidth, and room-temperature operation, making them suitable for precision magnetic-field measurements. When operated with linearly polarized optical pumping, the light propagation direction and polarization axis provide two intrinsic reference vectors, allowing orientation-related information beyond scalar magnetometry. By applying an oscillating magnetic field at the Larmor frequency, such information can be extracted from the harmonic components of the transmitted optical signal, whose amplitudes and phases reflect the magnetic field relative to the optical reference frame. In this work, dedicated FPGA-based digital signal processing electronics are designed for a linearly pumped He-OPM. The architecture enables real-time detection of the DC component as well as the fundamental and second harmonics, avoiding complex analog demodulation. Experimental results obtained under two-dimensional magnetic-field configurations are presented and show good agreement with the proposed model and analysis approach.",
-                            "folders": [],
+                            "folders": [
+                                {
+                                    "_type": "folder",
+                                    "id": 69959,
+                                    "title": null,
+                                    "description": "",
+                                    "attachments": [
+                                        {
+                                            "_type": "attachment",
+                                            "id": 135665,
+                                            "download_url": "https://indico.global/event/14708/contributions/146758/attachments/69959/135665/CP_37.JPG",
+                                            "title": "CP_37.JPG",
+                                            "description": "",
+                                            "modified_dt": "2026-05-13T13:27:57.902188+00:00",
+                                            "type": "file",
+                                            "is_protected": false,
+                                            "filename": "CP_37.JPG",
+                                            "content_type": "image/jpeg",
+                                            "size": 395437,
+                                            "checksum": "67a7928060b28aac50d159baf1b79d61"
+                                        },
+                                        {
+                                            "_type": "attachment",
+                                            "id": 135664,
+                                            "download_url": "https://indico.global/event/14708/contributions/146758/attachments/69959/135664/PO_37.pdf",
+                                            "title": "PO_37.pdf",
+                                            "description": "",
+                                            "modified_dt": "2026-05-13T13:27:56.665829+00:00",
+                                            "type": "file",
+                                            "is_protected": false,
+                                            "filename": "PO_37.pdf",
+                                            "content_type": "application/pdf",
+                                            "size": 889690,
+                                            "checksum": "db7d8eb86786b22cda6032f9543c4057"
+                                        }
+                                    ],
+                                    "default_folder": true,
+                                    "is_protected": false
+                                }
+                            ],
                             "url": "https://indico.global/event/14708/contributions/146758/",
                             "material": [],
                             "speakers": [
@@ -21769,14 +21903,14 @@
                                 {
                                     "_type": "ContributionParticipation",
                                     "_fossil": "contributionParticipationMetadata",
-                                    "first_name": "Carlo",
-                                    "last_name": "Tintori",
-                                    "fullName": "Tintori, Carlo",
-                                    "id": "292173",
+                                    "first_name": "Giovanni",
+                                    "last_name": "Cerretani",
+                                    "fullName": "Cerretani, Giovanni",
+                                    "id": "292171",
                                     "affiliation": "CAEN S.p.A.",
-                                    "emailHash": "a2bc974df28fa4ffdc69499addf9e099",
-                                    "db_id": 292173,
-                                    "person_id": 210889
+                                    "emailHash": "6909e46d6d68c9a2886558433e14b0cc",
+                                    "db_id": 292171,
+                                    "person_id": 236377
                                 }
                             ],
                             "primaryauthors": [
@@ -23332,7 +23466,32 @@
                             "location": "Hotel Hermitage",
                             "type": "Mini Oral",
                             "description": "Helium optically pumped magnetometers (He-OPMs) offer high sensitivity, wide bandwidth, and room-temperature operation, making them suitable for precision magnetic-field measurements. When operated with linearly polarized optical pumping, the light propagation direction and polarization axis provide two intrinsic reference vectors, allowing orientation-related information beyond scalar magnetometry. By applying an oscillating magnetic field at the Larmor frequency, such information can be extracted from the harmonic components of the transmitted optical signal, whose amplitudes and phases reflect the magnetic field relative to the optical reference frame. In this work, dedicated FPGA-based digital signal processing electronics are designed for a linearly pumped He-OPM. The architecture enables real-time detection of the DC component as well as the fundamental and second harmonics, avoiding complex analog demodulation. Experimental results obtained under two-dimensional magnetic-field configurations are presented and show good agreement with the proposed model and analysis approach.",
-                            "folders": [],
+                            "folders": [
+                                {
+                                    "_type": "folder",
+                                    "id": 69958,
+                                    "title": null,
+                                    "description": "",
+                                    "attachments": [
+                                        {
+                                            "_type": "attachment",
+                                            "id": 135663,
+                                            "download_url": "https://indico.global/event/14708/contributions/153426/attachments/69958/135663/MS_37.pdf",
+                                            "title": "MS_37.pdf",
+                                            "description": "",
+                                            "modified_dt": "2026-05-13T13:26:40.420681+00:00",
+                                            "type": "file",
+                                            "is_protected": false,
+                                            "filename": "MS_37.pdf",
+                                            "content_type": "application/pdf",
+                                            "size": 437497,
+                                            "checksum": "e1a715c009c0c7e2e6cc70d79a3d24ae"
+                                        }
+                                    ],
+                                    "default_folder": true,
+                                    "is_protected": false
+                                }
+                            ],
                             "url": "https://indico.global/event/14708/contributions/153426/",
                             "material": [],
                             "speakers": [
@@ -28664,82 +28823,6 @@
                         {
                             "_type": "Contribution",
                             "_fossil": "contributionMetadataWithSubContribs",
-                            "id": "84",
-                            "db_id": 146732,
-                            "friendly_id": 84,
-                            "title": "Heterogeneous Acceleration of Graph Neural Networks on Versal ACAP for High-Level Trigger Track Reconstruction",
-                            "startDate": {
-                                "date": "2026-05-26",
-                                "time": "12:05:00",
-                                "tz": "Europe/Zurich"
-                            },
-                            "endDate": {
-                                "date": "2026-05-26",
-                                "time": "12:25:00",
-                                "tz": "Europe/Zurich"
-                            },
-                            "duration": 20,
-                            "roomFullname": "Elena Room",
-                            "room": "Elena Room",
-                            "note": {},
-                            "location": "Hotel Hermitage",
-                            "type": "Poster presentation",
-                            "description": "The next generation of high-luminosity collider experiments, such as the HL-LHC and CEPC, will generate data streams at terabyte-per-second, imposing extreme real-time processing demands on trigger and data acquisition (TDAQ) systems. Online track reconstruction is pivotal for effective data reduction, transitioning TDAQ from simple filtering to precision selection. Graph Neural Networks (GNNs) have emerged as a powerful, data-driven solution for this task due to their natural alignment with particle track data structures. However, deploying GNNs in online systems requires stringent adherence to latency, throughput, and power constraints, which necessitates dedicated hardware acceleration beyond the limitations of CPUs and GPUs. This paper proposes and demonstrates a comprehensive hardware-software co-design approach, implementing a complete real-time GNN-based track-finding pipeline on the AMD Versal ACAP. Our methodology maps the algorithm onto the Versal VCK190's heterogeneous architecture. The graph construction phase, utilizing an \u03b5-nn algorithm, is implemented in the PL incorporating an LUT to accelerate neighborhood searches. The core denoising GNN model is parallelized and deployed onto the AIE array, employing a carefully designed dataflow and memory-conscious partitioning strategy to balance computational parallelism with the inherent resource constraints of individual AIE tiles. Implementation results show a GNN latency that scales linearly with input size, measured at approximately 1.086 ms for 100 nodes while consuming 21.75% of the AIE array. Functional validation on a hardware testbed confirms the system's operational correctness. This work substantiates the feasibility of leveraging Versal ACAP's heterogeneous compute paradigm to meet the rigorous real-time processing challenges of next-generation high-energy physics experiments.",
-                            "folders": [],
-                            "url": "https://indico.global/event/14708/contributions/146732/",
-                            "material": [],
-                            "speakers": [
-                                {
-                                    "_type": "ContributionParticipation",
-                                    "_fossil": "contributionParticipationMetadata",
-                                    "first_name": "zhao-zhi",
-                                    "last_name": "Liu",
-                                    "fullName": "Liu, zhao-zhi",
-                                    "id": "279709",
-                                    "affiliation": "",
-                                    "emailHash": "16311b5160f3f241a0d9088842707143",
-                                    "db_id": 279709,
-                                    "person_id": 235528
-                                }
-                            ],
-                            "primaryauthors": [
-                                {
-                                    "_type": "ContributionParticipation",
-                                    "_fossil": "contributionParticipationMetadata",
-                                    "first_name": "Shuangshuang",
-                                    "last_name": "Zhang",
-                                    "fullName": "Zhang, Shuangshuang",
-                                    "id": "279710",
-                                    "affiliation": "Shandong University",
-                                    "emailHash": "2199bce93cebfbbfdfe17ce55a79d2df",
-                                    "db_id": 279710,
-                                    "person_id": 236348
-                                },
-                                {
-                                    "_type": "ContributionParticipation",
-                                    "_fossil": "contributionParticipationMetadata",
-                                    "first_name": "zhao-zhi",
-                                    "last_name": "Liu",
-                                    "fullName": "Liu, zhao-zhi",
-                                    "id": "279709",
-                                    "affiliation": "",
-                                    "emailHash": "16311b5160f3f241a0d9088842707143",
-                                    "db_id": 279709,
-                                    "person_id": 235528
-                                }
-                            ],
-                            "coauthors": [],
-                            "keywords": [],
-                            "track": "Data Acquisition and Trigger Architectures",
-                            "session": "Data Acquisition and Trigger Architectures - PS",
-                            "references": [],
-                            "board_number": "",
-                            "code": "",
-                            "subContributions": []
-                        },
-                        {
-                            "_type": "Contribution",
-                            "_fossil": "contributionMetadataWithSubContribs",
                             "id": "103",
                             "db_id": 146740,
                             "friendly_id": 103,
@@ -30467,7 +30550,7 @@
                             "id": "150",
                             "db_id": 146726,
                             "friendly_id": 150,
-                            "title": "A Real-Time Trigger and DAQ System for the MuEDM Experiment",
+                            "title": "Trigger and DAQ System for the MuEDM Experiment",
                             "startDate": {
                                 "date": "2026-05-28",
                                 "time": "12:05:00",
